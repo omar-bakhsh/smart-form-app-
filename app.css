@@ -1,0 +1,234 @@
+body {
+  background: rgba(204, 204, 204, 0); 
+}
+.page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(77, 220, 174, 0.53);
+}
+.page[size="A4"] {  
+  width: 21cm;
+  height: 35.7cm; 
+}
+
+
+ @media print {
+   .page {
+    margin: 0px;
+    box-shadow: 0px;
+    border: double;}
+    footer{
+      display: none;
+    }
+ 
+}
+
+
+header{
+background-color:#cae6ea;
+position: relative;
+}
+#en{
+
+text-align:left;
+padding:10px;
+color: red;
+display: inline-block;
+
+}
+
+#logo{
+ position: absolute;
+  left:350px;
+  top: 10px;
+
+}
+#copyID{
+  color: red;
+  text-align: right;
+   display: inline-block;
+    vertical-align: top;
+    margin-left: 70px;
+}
+#pd{
+color: red;
+text-align: center;
+margin-left: 70px;
+margin-top: 6px;
+word-spacing: 3px;
+ display: inline-block;
+    vertical-align: top;
+
+}
+#ar{
+
+text-align:right;
+margin-right: 1px;
+position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+color: red;
+display: inline-block;
+
+}
+#tbdiv{
+  width:98%;
+  height: 380px;
+padding: 2px;
+align-items: right;
+position: relative;
+background-color: #b9dee4c2;
+margin-left: 0px;
+align-items: right;
+padding-left: 0px;
+font-size: 10px;
+ 
+}
+
+
+
+#tbr{
+  padding-top: 30px;
+ width:350px;
+ height: 450px;
+right:10px;
+ font-size: 7px;
+position: absolute;
+word-spacing: 0.25px;
+text-align:right;
+margin-right: 1px;
+  background-color: #dbe1e2;
+position: absolute;
+ font-size: 11px;
+      line-height: 1.5em;
+    height: 3em;       /* height is 2x line-height, so two lines will display */
+    overflow: hidden;
+}
+#tbl{
+ width:350px;
+ height: 450px;
+left:10px;
+ font-size: 7px;
+position: absolute;
+word-spacing: 0.25px;
+text-align:right;
+margin-left: 1px;
+  background-color: #dbe1e2;
+position: absolute;
+ font-size: 11px;
+      line-height: 1.5em;
+    height: 3em;       /* height is 2x line-height, so two lines will display */
+    overflow: hidden;
+}
+th{
+
+  width:100px;
+  padding: 1px;
+}
+
+#sirv{
+  
+color: white;
+background-color: black;
+font-size: 11px;
+margin-left: 1px;
+ position: relative;
+ left: 1.8%;
+ width: 749px;
+margin-top: 3px;
+ height:34PX; 
+padding:5px;
+
+}
+.container {
+left:-10px;
+width: 80%;
+ height: 324px;
+  padding: 0.5px;
+ background-color:#dee2e6  ; 
+position: relative;
+}
+
+#tbe, #the, #tde {
+  border: 2px dashed black;
+}
+.bdy{
+background-color: #b9dee4c2;
+
+}
+
+#dn{
+    direction: rtl;
+ width: 100px;
+  margin-left: 1px;
+   margin-top: 3px;
+
+}
+
+  #list{
+      right: 0;
+      display: inline-block;
+      width: 100%;
+      font-size: 12px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+    }
+
+
+#pbdy{
+  margin-left: 40px;
+  display: inline;
+}
+  ol li {
+     
+    text-align: right;
+    list-style-position: inside;
+    background: #ffe5e5;
+  padding-right: 5px;
+direction: rtl;
+    }
+.share{
+background-color: red;
+height: 35px;
+position: absolute;
+margin-left:0.5%;
+margin-bottom: 0px;
+padding-top: 10px;
+
+}
+
+body{ background-color:#ECECED; }
+#canvas{border:1px solid red; background:white;}
+
+  
+
+    footer{
+      
+      padding-bottom: 0px;
+    }
+
+    
+/*
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+background-image: url("chick.png");
+
+*/
+
+
