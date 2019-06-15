@@ -10,7 +10,7 @@ body {
 }
 .page[size="A4"] {  
   width: 21cm;
-  height: 35.7cm; 
+  height: 33.4cm; 
 }
 
 
@@ -19,9 +19,11 @@ body {
     margin: 0px;
     box-shadow: 0px;
     border: double;}
+    .noprint { 
+                  display: none !important;
+               } 
     footer{
-      display: none;
-    }
+      display:none;    }
  
 }
 
@@ -206,8 +208,9 @@ body{ background-color:#ECECED; }
   
 
     footer{
-      
+     margin-top:-3cm; 
       padding-bottom: 0px;
+      margin-bottom: 300px;
     }
 
     
